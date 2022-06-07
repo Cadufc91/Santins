@@ -1,0 +1,36 @@
+@import '../abstract/variaveis';
+
+.banner{
+    background: url(../images/BLP_banner.png) center no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    min-height: 810px;
+    background-size: cover;
+    width: 99%;
+    p{
+        margin-top: 309px;
+        width: 613px;
+        height: 113px;
+        font-size: 40px;
+        font-weight: 800;
+        color: white;
+        margin-left: 96px;
+        text-transform: uppercase;
+    }
+    button{
+        background: $cor-primaria;
+        margin-left: 96px;
+        margin-top: 30px;
+        padding: 12px 27px;
+        height: 50px;
+        width: 160px;
+        border-radius: 30px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        border: 2px solid $cor-primaria;
+        cursor: pointer;
+    }
+}

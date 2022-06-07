@@ -1,0 +1,110 @@
+html, body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 85%;
+  height: 52px;
+  margin-top: 27px;
+  margin-left: 96px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.menu .logo {
+  height: 51px;
+  width: 224px;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 86px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+.menu ul li:nth-child(2), .menu ul li:nth-child(3), .menu ul li:nth-child(4) {
+  margin-left: 35px;
+}
+
+.menu .login {
+  background: transparent;
+  border-radius: 30px;
+  padding: 16px 22px;
+  border: 2px solid #56D7AF;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu .invesimento {
+  background: #56D7AF;
+  border-radius: 30px;
+  padding: 15px 18px;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid #56D7AF;
+  cursor: pointer;
+}
+
+.banner {
+  background: url(../images/BLP_banner.png) center no-repeat;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  min-height: 810px;
+  background-size: cover;
+  width: 99%;
+}
+
+.banner p {
+  margin-top: 309px;
+  width: 613px;
+  height: 113px;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  margin-left: 96px;
+  text-transform: uppercase;
+}
+
+.banner button {
+  background: #56D7AF;
+  margin-left: 96px;
+  margin-top: 30px;
+  padding: 12px 27px;
+  height: 50px;
+  width: 160px;
+  border-radius: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  border: 2px solid #56D7AF;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

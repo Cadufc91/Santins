@@ -1,0 +1,54 @@
+@import '../abstract/variaveis';
+
+.menu{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 52px;
+    margin-top: 27px;
+    margin-left: 96px;
+    justify-content: space-evenly;
+    .logo{
+        height: 51px;
+        width: 224px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 86px;
+        li{
+            list-style: none;
+            a{
+                text-transform: uppercase;
+                text-decoration: none;
+                letter-spacing: 0.1em;
+                color: white;
+            }
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4){
+                margin-left: 35px;
+            }
+        }
+        
+    }
+    .login{
+        background: transparent;
+        border-radius: 30px;
+        padding: 16px 22px;
+        border: 2px solid $cor-primaria;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .invesimento{
+        background: $cor-primaria;
+        border-radius: 30px;
+        padding: 15px 18px;
+        color: white;
+        text-transform: uppercase;
+        border: 2px solid $cor-primaria;
+        cursor: pointer;
+    }
+}
